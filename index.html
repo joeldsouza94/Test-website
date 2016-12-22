@@ -56,7 +56,7 @@ function activeLink(evt) {
 
 function closeNav(event){
 	var box = document.getElementById('smallNav');
-	if (event.target != box && event.target.parentNode != box){
+	if (event.target.id != box && event.target.parentNode != box){
         box.style.display = 'none';
     }
 });
