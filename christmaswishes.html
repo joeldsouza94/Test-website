@@ -52,11 +52,9 @@
 					//Enable swiping...
 					$("#main").swipe( {
 						//Generic swipe handler for all directions
-						swipeLeft:function(event, direction, distance, duration, fingerCount) {
+						swipe:function(event, direction, distance, duration, fingerCount) {
 							if(direction=="left")
 							plusDivs(-1);
-						},
-						swipeRight:function(event, direction, distance, duration, fingerCount) {
 							if(direction=="left")
 							plusDivs(-1);
 						},
